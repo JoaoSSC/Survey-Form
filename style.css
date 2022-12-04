@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: whitesmoke;
+    margin: 0;
+    background-image: linear-gradient(115deg,
+    #3a3a9ecc,
+    #8888ceb3),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+h1, p {
+    text-align: center;
+
+}
+
+input,select,textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    word-wrap: wrap;
+}
+
+.subtitle {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.Form-div {
+    background-color: #1B1B32CC;
+    padding: 2.9rem;
+    border-radius: 0.47rem;
+    border: 3px;
+    width: 600px;
+    margin: auto;
+}
+.button {
+    display: block;
+    background-color: #37af65;
+    color: whitesmoke;
+    width: 550px;
+    margin: auto
+}
+#text-comment{
+    width: 550px;
+    height: 178px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.Name-text, .email-text, .age-text{
+    width: 540px;
+    margin: auto
+}
+
+.select-area {
+    width: 550px;
+    margin: auto;
+}
+
+.radio, .checkbox {
+    width: 15px;
+    margin: auto;
+    position: relative;
+}
